@@ -1,0 +1,1457 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="32" total="52" passed="12" failed="8" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-12-19T21:25:44 IST" name="Suite" finished-at="2022-12-19T21:32:44 IST" duration-ms="419224">
+    <groups>
+    </groups>
+    <test started-at="2022-12-19T21:25:44 IST" name="Test" finished-at="2022-12-19T21:32:44 IST" duration-ms="419224">
+      <class name="testcase.TC009FindContact">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcase.TC009FindContact@609e8838]" started-at="2022-12-19T21:25:44 IST" name="setUp" finished-at="2022-12-19T21:25:44 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="testCaseDetail()[pri:0, instance:testcase.TC009FindContact@609e8838]" started-at="2022-12-19T21:27:33 IST" name="testCaseDetail" finished-at="2022-12-19T21:27:33 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseDetail -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:testcase.TC009FindContact@609e8838]" started-at="2022-12-19T21:27:33 IST" name="launchBrowser" finished-at="2022-12-19T21:27:37 IST" duration-ms="3651" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcase.TC009FindContact@609e8838]" started-at="2022-12-19T21:27:37 IST" name="loginTest" data-provider="fetchData" finished-at="2022-12-19T21:27:45 IST" duration-ms="8572" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DemoCSR]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Sathish]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9600681703]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[91]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testcase.TC009FindContact@609e8838]" started-at="2022-12-19T21:27:45 IST" name="closeBrowser" finished-at="2022-12-19T21:27:46 IST" duration-ms="569" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testcase.TC009FindContact -->
+      <class name="testcase.TC015EditAccount">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcase.TC015EditAccount@792b749c]" started-at="2022-12-19T21:25:44 IST" name="setUp" finished-at="2022-12-19T21:25:44 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="testCaseDetail()[pri:0, instance:testcase.TC015EditAccount@792b749c]" started-at="2022-12-19T21:28:59 IST" name="testCaseDetail" finished-at="2022-12-19T21:28:59 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseDetail -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:testcase.TC015EditAccount@792b749c]" started-at="2022-12-19T21:28:59 IST" name="launchBrowser" finished-at="2022-12-19T21:29:02 IST" duration-ms="3643" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="editAccount(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcase.TC015EditAccount@792b749c]" started-at="2022-12-19T21:29:02 IST" name="editAccount" data-provider="fetchData" finished-at="2022-12-19T21:29:16 IST" duration-ms="13351" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DemoCSR]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Sathish]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[7397111703]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Description]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editAccount -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testcase.TC015EditAccount@792b749c]" started-at="2022-12-19T21:29:16 IST" name="closeBrowser" finished-at="2022-12-19T21:29:16 IST" duration-ms="309" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testcase.TC015EditAccount -->
+      <class name="testcase.TC013CreateAccount">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcase.TC013CreateAccount@17fc391b]" started-at="2022-12-19T21:25:44 IST" name="setUp" finished-at="2022-12-19T21:25:44 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="testCaseDetail()[pri:0, instance:testcase.TC013CreateAccount@17fc391b]" started-at="2022-12-19T21:26:48 IST" name="testCaseDetail" finished-at="2022-12-19T21:26:48 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseDetail -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:testcase.TC013CreateAccount@17fc391b]" started-at="2022-12-19T21:26:48 IST" name="launchBrowser" finished-at="2022-12-19T21:26:52 IST" duration-ms="3706" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="createAccount(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcase.TC013CreateAccount@17fc391b]" started-at="2022-12-19T21:26:52 IST" name="createAccount" data-provider="fetchData" finished-at="2022-12-19T21:27:03 IST" duration-ms="11745" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DemoCSR]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Sathish]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sole Proprietorship]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Manufacturing]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[sathish@ssew.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[7397111703]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAccount -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testcase.TC013CreateAccount@17fc391b]" started-at="2022-12-19T21:27:03 IST" name="closeBrowser" finished-at="2022-12-19T21:27:04 IST" duration-ms="433" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:testcase.TC013CreateAccount@17fc391b]" started-at="2022-12-19T21:27:04 IST" name="launchBrowser" finished-at="2022-12-19T21:27:08 IST" duration-ms="3791" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="createAccount(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcase.TC013CreateAccount@17fc391b]" started-at="2022-12-19T21:27:08 IST" name="createAccount" data-provider="fetchData" finished-at="2022-12-19T21:27:20 IST" duration-ms="12698" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DemoCSR]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Hishtas]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sole Proprietorship]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Manufacturing]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[sathish@ssew.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[9600681961]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAccount -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testcase.TC013CreateAccount@17fc391b]" started-at="2022-12-19T21:27:20 IST" name="closeBrowser" finished-at="2022-12-19T21:27:21 IST" duration-ms="374" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testcase.TC013CreateAccount -->
+      <class name="testcase.TC017DeleteLead">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcase.TC017DeleteLead@302c971f]" started-at="2022-12-19T21:25:44 IST" name="setUp" finished-at="2022-12-19T21:25:44 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="testCaseDetail()[pri:0, instance:testcase.TC017DeleteLead@302c971f]" started-at="2022-12-19T21:32:19 IST" name="testCaseDetail" finished-at="2022-12-19T21:32:19 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseDetail -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:testcase.TC017DeleteLead@302c971f]" started-at="2022-12-19T21:32:19 IST" name="launchBrowser" finished-at="2022-12-19T21:32:23 IST" duration-ms="3862" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="deleteAccount(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcase.TC017DeleteLead@302c971f]" started-at="2022-12-19T21:32:23 IST" name="deleteAccount" data-provider="fetchData" finished-at="2022-12-19T21:32:31 IST" duration-ms="8502" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DemoCSR]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Sathish]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[7397111703]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.UnhandledAlertException">
+            <message>
+              <![CDATA[unexpected alert open: {Alert text : Are you sure?}
+  (Session info: chrome=108.0.5359.125): Are you sure?
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'LAPTOP-BEMV9KHL', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [27bc2e2f99e71b3aefc207512865f21c, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\SATHISH\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:51629}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51629/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 27bc2e2f99e71b3aefc207512865f21c]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Are you sure?}
+  (Session info: chrome=108.0.5359.125): Are you sure?
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'LAPTOP-BEMV9KHL', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [27bc2e2f99e71b3aefc207512865f21c, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\SATHISH\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:51629}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51629/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 27bc2e2f99e71b3aefc207512865f21c
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:131)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:624)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:628)
+at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:353)
+at base.ProjectSpecificMethod.takeSnapshot(ProjectSpecificMethod.java:56)
+at base.ProjectSpecificMethod.reportStep(ProjectSpecificMethod.java:63)
+at page.ViewAccountPage.deactivateAccountt(ViewAccountPage.java:26)
+at testcase.TC017DeleteLead.deleteAccount(TC017DeleteLead.java:25)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:831)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.UnhandledAlertException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteAccount -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testcase.TC017DeleteLead@302c971f]" started-at="2022-12-19T21:32:31 IST" name="closeBrowser" finished-at="2022-12-19T21:32:32 IST" duration-ms="330" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testcase.TC017DeleteLead -->
+      <class name="testcase.TC007RequestCatalog">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcase.TC007RequestCatalog@1972e513]" started-at="2022-12-19T21:25:44 IST" name="setUp" finished-at="2022-12-19T21:25:44 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="testCaseDetail()[pri:0, instance:testcase.TC007RequestCatalog@1972e513]" started-at="2022-12-19T21:32:32 IST" name="testCaseDetail" finished-at="2022-12-19T21:32:32 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseDetail -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:testcase.TC007RequestCatalog@1972e513]" started-at="2022-12-19T21:32:32 IST" name="launchBrowser" finished-at="2022-12-19T21:32:35 IST" duration-ms="3822" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcase.TC007RequestCatalog@1972e513]" started-at="2022-12-19T21:32:35 IST" name="loginTest" data-provider="fetchData" finished-at="2022-12-19T21:32:43 IST" duration-ms="7830" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[demoCSR]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Sathish]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Shanmugasundaram]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Kaniyalar Street]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[628202]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[04639]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[IA]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[India]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Arumuganeri]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testcase.TC007RequestCatalog@1972e513]" started-at="2022-12-19T21:32:43 IST" name="closeBrowser" finished-at="2022-12-19T21:32:44 IST" duration-ms="382" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testcase.TC007RequestCatalog -->
+      <class name="testcase.TC014FindAccount">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcase.TC014FindAccount@359df09a]" started-at="2022-12-19T21:25:44 IST" name="setUp" finished-at="2022-12-19T21:25:44 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="testCaseDetail()[pri:0, instance:testcase.TC014FindAccount@359df09a]" started-at="2022-12-19T21:27:46 IST" name="testCaseDetail" finished-at="2022-12-19T21:27:46 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseDetail -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:testcase.TC014FindAccount@359df09a]" started-at="2022-12-19T21:27:46 IST" name="launchBrowser" finished-at="2022-12-19T21:27:50 IST" duration-ms="4228" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="findAccount(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcase.TC014FindAccount@359df09a]" started-at="2022-12-19T21:27:50 IST" name="findAccount" data-provider="fetchData" finished-at="2022-12-19T21:27:58 IST" duration-ms="7916" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DemoCSR]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Sathish]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[7397111703]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findAccount -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testcase.TC014FindAccount@359df09a]" started-at="2022-12-19T21:27:58 IST" name="closeBrowser" finished-at="2022-12-19T21:27:58 IST" duration-ms="384" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testcase.TC014FindAccount -->
+      <class name="testcase.TC001Login">
+        <test-method is-config="true" signature="startReport()[pri:0, instance:testcase.TC001Login@496bc455]" started-at="2022-12-19T21:25:44 IST" name="startReport" finished-at="2022-12-19T21:25:44 IST" duration-ms="221" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcase.TC001Login@496bc455]" started-at="2022-12-19T21:25:44 IST" name="setUp" finished-at="2022-12-19T21:25:44 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="testCaseDetail()[pri:0, instance:testcase.TC001Login@496bc455]" started-at="2022-12-19T21:25:44 IST" name="testCaseDetail" finished-at="2022-12-19T21:25:45 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseDetail -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:testcase.TC001Login@496bc455]" started-at="2022-12-19T21:25:46 IST" name="launchBrowser" finished-at="2022-12-19T21:25:51 IST" duration-ms="5307" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:testcase.TC001Login@496bc455]" started-at="2022-12-19T21:25:51 IST" name="loginTest" data-provider="fetchData" finished-at="2022-12-19T21:25:52 IST" duration-ms="1403" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DemoCSR]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testcase.TC001Login@496bc455]" started-at="2022-12-19T21:25:52 IST" name="closeBrowser" finished-at="2022-12-19T21:25:53 IST" duration-ms="420" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="stopReport()[pri:0, instance:testcase.TC001Login@496bc455]" started-at="2022-12-19T21:32:44 IST" name="stopReport" finished-at="2022-12-19T21:32:44 IST" duration-ms="469" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopReport -->
+      </class> <!-- testcase.TC001Login -->
+      <class name="testcase.TC004EditLead">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcase.TC004EditLead@43df23d3]" started-at="2022-12-19T21:25:44 IST" name="setUp" finished-at="2022-12-19T21:25:44 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="testCaseDetail()[pri:0, instance:testcase.TC004EditLead@43df23d3]" started-at="2022-12-19T21:27:58 IST" name="testCaseDetail" finished-at="2022-12-19T21:27:58 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseDetail -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:testcase.TC004EditLead@43df23d3]" started-at="2022-12-19T21:27:58 IST" name="launchBrowser" finished-at="2022-12-19T21:28:02 IST" duration-ms="3636" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="editLeadTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcase.TC004EditLead@43df23d3]" started-at="2022-12-19T21:28:02 IST" name="editLeadTest" data-provider="fetchData" finished-at="2022-12-19T21:28:42 IST" duration-ms="39623" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DemoCSR]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Sathish]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9600611703]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[20451]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#updateLeadForm_numberEmployees"}
+  (Session info: chrome=108.0.5359.125)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'LAPTOP-BEMV9KHL', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5917d504b24aca5c2c0160ac9e1b4080, findElement {using=id, value=updateLeadForm_numberEmployees}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\SATHISH\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:51293}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51293/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5917d504b24aca5c2c0160ac9e1b4080]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#updateLeadForm_numberEmployees"}
+  (Session info: chrome=108.0.5359.125)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'LAPTOP-BEMV9KHL', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5917d504b24aca5c2c0160ac9e1b4080, findElement {using=id, value=updateLeadForm_numberEmployees}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\SATHISH\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:51293}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51293/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5917d504b24aca5c2c0160ac9e1b4080
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:387)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:379)
+at page.EditLeadPage.enterNumberEmployee(EditLeadPage.java:18)
+at testcase.TC004EditLead.editLeadTest(TC004EditLead.java:25)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:831)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editLeadTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testcase.TC004EditLead@43df23d3]" started-at="2022-12-19T21:28:42 IST" name="closeBrowser" finished-at="2022-12-19T21:28:42 IST" duration-ms="314" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testcase.TC004EditLead -->
+      <class name="testcase.TC006DeleteLead">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcase.TC006DeleteLead@514646ef]" started-at="2022-12-19T21:25:44 IST" name="setUp" finished-at="2022-12-19T21:25:44 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="testCaseDetail()[pri:0, instance:testcase.TC006DeleteLead@514646ef]" started-at="2022-12-19T21:30:29 IST" name="testCaseDetail" finished-at="2022-12-19T21:30:29 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseDetail -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:testcase.TC006DeleteLead@514646ef]" started-at="2022-12-19T21:30:29 IST" name="launchBrowser" finished-at="2022-12-19T21:30:33 IST" duration-ms="3691" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="deleteLeadTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcase.TC006DeleteLead@514646ef]" started-at="2022-12-19T21:30:33 IST" name="deleteLeadTest" data-provider="fetchData" finished-at="2022-12-19T21:31:17 IST" duration-ms="43606" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DemoCSR]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Sathish]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9600611703]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='Delete']"}
+  (Session info: chrome=108.0.5359.125)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'LAPTOP-BEMV9KHL', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fbc2a538cbbaa2f388085ec81c70f343, findElement {using=xpath, value=//a[text()='Delete']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\SATHISH\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:51512}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51512/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fbc2a538cbbaa2f388085ec81c70f343]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='Delete']"}
+  (Session info: chrome=108.0.5359.125)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'LAPTOP-BEMV9KHL', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fbc2a538cbbaa2f388085ec81c70f343, findElement {using=xpath, value=//a[text()='Delete']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\SATHISH\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:51512}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51512/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fbc2a538cbbaa2f388085ec81c70f343
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:387)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:379)
+at page.ViewLeadPage.deleteLead(ViewLeadPage.java:28)
+at testcase.TC006DeleteLead.deleteLeadTest(TC006DeleteLead.java:25)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:831)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteLeadTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testcase.TC006DeleteLead@514646ef]" started-at="2022-12-19T21:31:17 IST" name="closeBrowser" finished-at="2022-12-19T21:31:17 IST" duration-ms="316" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:testcase.TC006DeleteLead@514646ef]" started-at="2022-12-19T21:31:17 IST" name="launchBrowser" finished-at="2022-12-19T21:31:21 IST" duration-ms="3773" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="deleteLeadTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcase.TC006DeleteLead@514646ef]" started-at="2022-12-19T21:31:21 IST" name="deleteLeadTest" data-provider="fetchData" finished-at="2022-12-19T21:31:48 IST" duration-ms="27517" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DemoCSR]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Sathish]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9600611703]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to find element with locator By.xpath: //a[text()='Delete']
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'LAPTOP-BEMV9KHL', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: driver.version: RemoteWebDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to find element with locator By.xpath: //a[text()='Delete']
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'LAPTOP-BEMV9KHL', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: driver.version: RemoteWebDriver
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:387)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:379)
+at page.ViewLeadPage.deleteLead(ViewLeadPage.java:28)
+at testcase.TC006DeleteLead.deleteLeadTest(TC006DeleteLead.java:25)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:831)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteLeadTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testcase.TC006DeleteLead@514646ef]" started-at="2022-12-19T21:31:48 IST" name="closeBrowser" finished-at="2022-12-19T21:31:49 IST" duration-ms="429" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testcase.TC006DeleteLead -->
+      <class name="testcase.TC012DeleteContact">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcase.TC012DeleteContact@305ffe9e]" started-at="2022-12-19T21:25:44 IST" name="setUp" finished-at="2022-12-19T21:25:44 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="testCaseDetail()[pri:0, instance:testcase.TC012DeleteContact@305ffe9e]" started-at="2022-12-19T21:31:49 IST" name="testCaseDetail" finished-at="2022-12-19T21:31:49 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseDetail -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:testcase.TC012DeleteContact@305ffe9e]" started-at="2022-12-19T21:31:49 IST" name="launchBrowser" finished-at="2022-12-19T21:31:53 IST" duration-ms="3849" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcase.TC012DeleteContact@305ffe9e]" started-at="2022-12-19T21:31:53 IST" name="loginTest" data-provider="fetchData" finished-at="2022-12-19T21:32:19 IST" duration-ms="25878" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DemoCSR]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Sathish]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9600611703]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[91]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to find element with locator By.xpath: //a[text()='Deactivate Contact']
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'LAPTOP-BEMV9KHL', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: driver.version: RemoteWebDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to find element with locator By.xpath: //a[text()='Deactivate Contact']
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'LAPTOP-BEMV9KHL', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: driver.version: RemoteWebDriver
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:387)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:379)
+at page.ViewContactPage.deactivateContact(ViewContactPage.java:24)
+at testcase.TC012DeleteContact.loginTest(TC012DeleteContact.java:26)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:831)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testcase.TC012DeleteContact@305ffe9e]" started-at="2022-12-19T21:32:19 IST" name="closeBrowser" finished-at="2022-12-19T21:32:19 IST" duration-ms="266" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testcase.TC012DeleteContact -->
+      <class name="testcase.TC011MergeContact">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcase.TC011MergeContact@19932c16]" started-at="2022-12-19T21:25:44 IST" name="setUp" finished-at="2022-12-19T21:25:44 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="testCaseDetail()[pri:0, instance:testcase.TC011MergeContact@19932c16]" started-at="2022-12-19T21:29:58 IST" name="testCaseDetail" finished-at="2022-12-19T21:29:58 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseDetail -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:testcase.TC011MergeContact@19932c16]" started-at="2022-12-19T21:29:58 IST" name="launchBrowser" finished-at="2022-12-19T21:30:02 IST" duration-ms="3701" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcase.TC011MergeContact@19932c16]" started-at="2022-12-19T21:30:02 IST" name="loginTest" data-provider="fetchData" finished-at="2022-12-19T21:30:16 IST" duration-ms="14535" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DemoCSR]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Sathish]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9600681703]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[91]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[9600611703]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.UnhandledAlertException">
+            <message>
+              <![CDATA[unexpected alert open: {Alert text : Are you sure?}
+  (Session info: chrome=108.0.5359.125): Are you sure?
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'LAPTOP-BEMV9KHL', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1b1b41d36d3eec0e64bbbec8fb6ac40c, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\SATHISH\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:51447}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51447/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1b1b41d36d3eec0e64bbbec8fb6ac40c]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Are you sure?}
+  (Session info: chrome=108.0.5359.125): Are you sure?
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'LAPTOP-BEMV9KHL', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1b1b41d36d3eec0e64bbbec8fb6ac40c, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\SATHISH\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:51447}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51447/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1b1b41d36d3eec0e64bbbec8fb6ac40c
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:131)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:624)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:628)
+at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:353)
+at base.ProjectSpecificMethod.takeSnapshot(ProjectSpecificMethod.java:56)
+at base.ProjectSpecificMethod.reportStep(ProjectSpecificMethod.java:63)
+at page.MergeContactPage.clickMergeButton(MergeContactPage.java:39)
+at testcase.TC011MergeContact.loginTest(TC011MergeContact.java:27)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:831)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.UnhandledAlertException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testcase.TC011MergeContact@19932c16]" started-at="2022-12-19T21:30:16 IST" name="closeBrowser" finished-at="2022-12-19T21:30:17 IST" duration-ms="384" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testcase.TC011MergeContact -->
+      <class name="testcase.TC010EditContact">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcase.TC010EditContact@6d60fe40]" started-at="2022-12-19T21:25:44 IST" name="setUp" finished-at="2022-12-19T21:25:44 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="testCaseDetail()[pri:0, instance:testcase.TC010EditContact@6d60fe40]" started-at="2022-12-19T21:28:42 IST" name="testCaseDetail" finished-at="2022-12-19T21:28:42 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseDetail -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:testcase.TC010EditContact@6d60fe40]" started-at="2022-12-19T21:28:42 IST" name="launchBrowser" finished-at="2022-12-19T21:28:46 IST" duration-ms="4088" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcase.TC010EditContact@6d60fe40]" started-at="2022-12-19T21:28:46 IST" name="loginTest" data-provider="fetchData" finished-at="2022-12-19T21:28:58 IST" duration-ms="12283" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DemoCSR]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Sathish]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9600681703]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[91]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[General]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testcase.TC010EditContact@6d60fe40]" started-at="2022-12-19T21:28:58 IST" name="closeBrowser" finished-at="2022-12-19T21:28:59 IST" duration-ms="310" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testcase.TC010EditContact -->
+      <class name="testcase.TC008CreateContact">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcase.TC008CreateContact@4082ba93]" started-at="2022-12-19T21:25:44 IST" name="setUp" finished-at="2022-12-19T21:25:44 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="testCaseDetail()[pri:0, instance:testcase.TC008CreateContact@4082ba93]" started-at="2022-12-19T21:26:15 IST" name="testCaseDetail" finished-at="2022-12-19T21:26:15 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseDetail -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:testcase.TC008CreateContact@4082ba93]" started-at="2022-12-19T21:26:15 IST" name="launchBrowser" finished-at="2022-12-19T21:26:18 IST" duration-ms="3617" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcase.TC008CreateContact@4082ba93]" started-at="2022-12-19T21:26:18 IST" name="loginTest" data-provider="fetchData" finished-at="2022-12-19T21:26:30 IST" duration-ms="11846" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DemoCSR]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Sathish]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Shanmugasundaram]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Mr.]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[sathish@ssew.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[9600681703]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[91]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testcase.TC008CreateContact@4082ba93]" started-at="2022-12-19T21:26:30 IST" name="closeBrowser" finished-at="2022-12-19T21:26:31 IST" duration-ms="374" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:testcase.TC008CreateContact@4082ba93]" started-at="2022-12-19T21:26:31 IST" name="launchBrowser" finished-at="2022-12-19T21:26:34 IST" duration-ms="3722" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcase.TC008CreateContact@4082ba93]" started-at="2022-12-19T21:26:34 IST" name="loginTest" data-provider="fetchData" finished-at="2022-12-19T21:26:47 IST" duration-ms="13174" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DemoCSR]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Sathish]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Shanmugasundaram]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Mr.]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[sathish@ssew.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[9600611703]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[91]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testcase.TC008CreateContact@4082ba93]" started-at="2022-12-19T21:26:48 IST" name="closeBrowser" finished-at="2022-12-19T21:26:48 IST" duration-ms="430" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testcase.TC008CreateContact -->
+      <class name="testcase.TC016MergeAccount">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcase.TC016MergeAccount@73eb439a]" started-at="2022-12-19T21:25:44 IST" name="setUp" finished-at="2022-12-19T21:25:44 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="testCaseDetail()[pri:0, instance:testcase.TC016MergeAccount@73eb439a]" started-at="2022-12-19T21:30:17 IST" name="testCaseDetail" finished-at="2022-12-19T21:30:17 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseDetail -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:testcase.TC016MergeAccount@73eb439a]" started-at="2022-12-19T21:30:17 IST" name="launchBrowser" finished-at="2022-12-19T21:30:20 IST" duration-ms="3574" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="mergeAccount(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcase.TC016MergeAccount@73eb439a]" started-at="2022-12-19T21:30:20 IST" name="mergeAccount" data-provider="fetchData" finished-at="2022-12-19T21:30:29 IST" duration-ms="8616" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DemoCSR]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Hishtas]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9600681961]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[7397111703]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Sathish]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.UnhandledAlertException">
+            <message>
+              <![CDATA[unexpected alert open: {Alert text : Are you sure?}
+  (Session info: chrome=108.0.5359.125): Are you sure?
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'LAPTOP-BEMV9KHL', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d5c2b0734b7225df5f436b85dff8bdaf, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\SATHISH\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:51480}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51480/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d5c2b0734b7225df5f436b85dff8bdaf]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Are you sure?}
+  (Session info: chrome=108.0.5359.125): Are you sure?
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'LAPTOP-BEMV9KHL', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d5c2b0734b7225df5f436b85dff8bdaf, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\SATHISH\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:51480}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51480/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d5c2b0734b7225df5f436b85dff8bdaf
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:131)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:624)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:628)
+at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:353)
+at base.ProjectSpecificMethod.takeSnapshot(ProjectSpecificMethod.java:56)
+at base.ProjectSpecificMethod.reportStep(ProjectSpecificMethod.java:63)
+at page.MergeAccountPage.clickMergeButton(MergeAccountPage.java:39)
+at testcase.TC016MergeAccount.mergeAccount(TC016MergeAccount.java:27)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:831)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.UnhandledAlertException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mergeAccount -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testcase.TC016MergeAccount@73eb439a]" started-at="2022-12-19T21:30:29 IST" name="closeBrowser" finished-at="2022-12-19T21:30:29 IST" duration-ms="344" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testcase.TC016MergeAccount -->
+      <class name="testcase.TC005DuplicateLead">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcase.TC005DuplicateLead@23e84203]" started-at="2022-12-19T21:25:44 IST" name="setUp" finished-at="2022-12-19T21:25:44 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="testCaseDetail()[pri:0, instance:testcase.TC005DuplicateLead@23e84203]" started-at="2022-12-19T21:29:16 IST" name="testCaseDetail" finished-at="2022-12-19T21:29:16 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseDetail -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:testcase.TC005DuplicateLead@23e84203]" started-at="2022-12-19T21:29:16 IST" name="launchBrowser" finished-at="2022-12-19T21:29:20 IST" duration-ms="3516" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="duplicateLeadTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcase.TC005DuplicateLead@23e84203]" started-at="2022-12-19T21:29:20 IST" name="duplicateLeadTest" data-provider="fetchData" finished-at="2022-12-19T21:29:58 IST" duration-ms="38131" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DemoCSR]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Sathish]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9600611703]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[sathish@ssew.com]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='Duplicate Lead']"}
+  (Session info: chrome=108.0.5359.125)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'LAPTOP-BEMV9KHL', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fe0b2c0453f5dc9e3c862aba696b1335, findElement {using=xpath, value=//a[text()='Duplicate Lead']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\SATHISH\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:51406}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51406/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fe0b2c0453f5dc9e3c862aba696b1335]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='Duplicate Lead']"}
+  (Session info: chrome=108.0.5359.125)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'LAPTOP-BEMV9KHL', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fe0b2c0453f5dc9e3c862aba696b1335, findElement {using=xpath, value=//a[text()='Duplicate Lead']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\SATHISH\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:51406}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51406/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fe0b2c0453f5dc9e3c862aba696b1335
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:387)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:379)
+at page.ViewLeadPage.duplicateLead(ViewLeadPage.java:18)
+at testcase.TC005DuplicateLead.duplicateLeadTest(TC005DuplicateLead.java:26)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:831)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- duplicateLeadTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testcase.TC005DuplicateLead@23e84203]" started-at="2022-12-19T21:29:58 IST" name="closeBrowser" finished-at="2022-12-19T21:29:58 IST" duration-ms="320" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testcase.TC005DuplicateLead -->
+      <class name="testcase.TC003FindLead">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcase.TC003FindLead@2b30a42c]" started-at="2022-12-19T21:25:44 IST" name="setUp" finished-at="2022-12-19T21:25:44 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="testCaseDetail()[pri:0, instance:testcase.TC003FindLead@2b30a42c]" started-at="2022-12-19T21:27:21 IST" name="testCaseDetail" finished-at="2022-12-19T21:27:21 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseDetail -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:testcase.TC003FindLead@2b30a42c]" started-at="2022-12-19T21:27:21 IST" name="launchBrowser" finished-at="2022-12-19T21:27:24 IST" duration-ms="3579" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="findLeadTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcase.TC003FindLead@2b30a42c]" started-at="2022-12-19T21:27:24 IST" name="findLeadTest" data-provider="fetchData" finished-at="2022-12-19T21:27:33 IST" duration-ms="8247" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DemoCSR]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Sathish]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9600611703]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findLeadTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testcase.TC003FindLead@2b30a42c]" started-at="2022-12-19T21:27:33 IST" name="closeBrowser" finished-at="2022-12-19T21:27:33 IST" duration-ms="353" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testcase.TC003FindLead -->
+      <class name="testcase.TC002CreateLead">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcase.TC002CreateLead@4a003cbe]" started-at="2022-12-19T21:25:44 IST" name="setUp" finished-at="2022-12-19T21:25:44 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="testCaseDetail()[pri:0, instance:testcase.TC002CreateLead@4a003cbe]" started-at="2022-12-19T21:25:53 IST" name="testCaseDetail" finished-at="2022-12-19T21:25:53 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseDetail -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:testcase.TC002CreateLead@4a003cbe]" started-at="2022-12-19T21:25:53 IST" name="launchBrowser" finished-at="2022-12-19T21:25:56 IST" duration-ms="3520" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="createLeadTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcase.TC002CreateLead@4a003cbe]" started-at="2022-12-19T21:25:56 IST" name="createLeadTest" data-provider="fetchData" finished-at="2022-12-19T21:26:14 IST" duration-ms="17867" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DemoCSR]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[SSEW]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sathish]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Shanmugasundaram]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[9600611703]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Head]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[MR.]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Partner]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Sole Proprietorship]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Manufacturing]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createLeadTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testcase.TC002CreateLead@4a003cbe]" started-at="2022-12-19T21:26:14 IST" name="closeBrowser" finished-at="2022-12-19T21:26:15 IST" duration-ms="357" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testcase.TC002CreateLead -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

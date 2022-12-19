@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="classes" name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="2">
+  <test thread-count="5" parallel="classes" name="Test(failed)" verbose="2">
+    <classes>
+      <class name="testcase.TC012DeleteContact">
+        <methods>
+          <include name="loginTest" invocation-numbers="0"/>
+          <include name="setUp"/>
+          <include name="startReport"/>
+          <include name="stopReport"/>
+          <include name="launchBrowser"/>
+          <include name="testCaseDetail"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- testcase.TC012DeleteContact -->
+      <class name="testcase.TC011MergeContact">
+        <methods>
+          <include name="startReport"/>
+          <include name="stopReport"/>
+          <include name="loginTest" invocation-numbers="0"/>
+          <include name="launchBrowser"/>
+          <include name="testCaseDetail"/>
+          <include name="closeBrowser"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- testcase.TC011MergeContact -->
+      <class name="testcase.TC006DeleteLead">
+        <methods>
+          <include name="startReport"/>
+          <include name="stopReport"/>
+          <include name="launchBrowser"/>
+          <include name="testCaseDetail"/>
+          <include name="deleteLeadTest" invocation-numbers="0 1"/>
+          <include name="closeBrowser"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- testcase.TC006DeleteLead -->
+      <class name="testcase.TC017DeleteLead">
+        <methods>
+          <include name="setUp"/>
+          <include name="startReport"/>
+          <include name="stopReport"/>
+          <include name="launchBrowser"/>
+          <include name="testCaseDetail"/>
+          <include name="deleteAccount" invocation-numbers="0"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- testcase.TC017DeleteLead -->
+      <class name="testcase.TC005DuplicateLead">
+        <methods>
+          <include name="duplicateLeadTest" invocation-numbers="0"/>
+          <include name="startReport"/>
+          <include name="stopReport"/>
+          <include name="setUp"/>
+          <include name="testCaseDetail"/>
+          <include name="launchBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- testcase.TC005DuplicateLead -->
+      <class name="testcase.TC004EditLead">
+        <methods>
+          <include name="editLeadTest" invocation-numbers="0"/>
+          <include name="startReport"/>
+          <include name="stopReport"/>
+          <include name="setUp"/>
+          <include name="testCaseDetail"/>
+          <include name="launchBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- testcase.TC004EditLead -->
+      <class name="testcase.TC016MergeAccount">
+        <methods>
+          <include name="startReport"/>
+          <include name="setUp"/>
+          <include name="mergeAccount" invocation-numbers="0"/>
+          <include name="stopReport"/>
+          <include name="testCaseDetail"/>
+          <include name="launchBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- testcase.TC016MergeAccount -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
